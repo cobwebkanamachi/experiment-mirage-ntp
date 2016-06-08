@@ -36,6 +36,8 @@ This is an experimental build for https://github.com/matildah/mirage-ntp<BR>
    edit ntp server ip address.<BR>
    /bin/sh  ./like_a_mirage.sh<BR>
    sudo su -<BR>
+   vi tap.sh<BR>
+   edit iptables setting as you like.<BR>
    /bin/sh ./tap.sh<BR>
    ./mir-network<BR>
    in another term:<BR>
