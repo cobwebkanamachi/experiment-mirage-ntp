@@ -2,15 +2,15 @@
 This is an experimental build for https://github.com/matildah/mirage-ntp<BR>
 <BR>
 1. Environmental setting<BR>
-   NAME="Ubuntu"
-   VERSION="14.04.4 LTS, Trusty Tahr"
-   ID=ubuntu
-   ID_LIKE=debian
-   PRETTY_NAME="Ubuntu 14.04.4 LTS"
-   VERSION_ID="14.04"
-   HOME_URL="http://www.ubuntu.com/"
-   SUPPORT_URL="http://help.ubuntu.com/"
-   BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+   NAME="Ubuntu"<BR>
+   VERSION="14.04.4 LTS, Trusty Tahr"<BR>
+   ID=ubuntu<BR>
+   ID_LIKE=debian<BR>
+   PRETTY_NAME="Ubuntu 14.04.4 LTS"<BR>
+   VERSION_ID="14.04"<BR>
+   HOME_URL="http://www.ubuntu.com/"<BR>
+   SUPPORT_URL="http://help.ubuntu.com/"<BR>
+   BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"<BR>
    and Ubuntu 14.04 LTS runs on vbox on OSX yosemite<BR>
 <BR>
 2. Preparations<BR>
@@ -32,6 +32,8 @@ This is an experimental build for https://github.com/matildah/mirage-ntp<BR>
    oasis setup<BR>
    make<BR>
    cd unikernel<BR>
+   vi unikernel.ml<BR>
+   edit ntp server ip address.<BR>
    /bin/sh  ./like_a_mirage.sh<BR>
    sudo su -<BR>
    /bin/sh ./tap.sh<BR>
